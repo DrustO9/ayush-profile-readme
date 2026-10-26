@@ -1,0 +1,39 @@
+<svg width="1200" height="495" viewBox="0 0 1200 495" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project credits</title>
+  <desc id="desc">Sixteen public projects move across retro credit strips.</desc>
+  <defs>
+  <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="9" result="noise"/>
+    <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+    <feComponentTransfer in="mono" result="fade"><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="fade" mode="multiply"/>
+  </filter></defs>
+  <style>
+    .left { animation:left 24s linear infinite}.right { animation:right 27s linear infinite}
+    .star { animation:spin 12s linear infinite;transform-origin:0 0}
+    @keyframes left { to { transform:translateX(-420px) } }
+    @keyframes right { to { transform:translateX(420px) } }
+    @keyframes spin { to { transform:rotate(360deg) } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none!important; } }
+  </style>
+  <rect width="1200" height="495" fill="#363062"/>
+  <path d="M0 0H1200V28C920 7 280 55 0 28Z" fill="#AE445A"/>
+  <text x="48" y="88" fill="#F5F5F5" stroke="#451952" stroke-width="2" paint-order="stroke" font-family="Impact, Haettenschweiler, sans-serif" font-size="51" letter-spacing="3">PROJECT CREDITS</text>
+  <text x="1148" y="82" text-anchor="end" fill="#F99417" font-family="Georgia, serif" font-size="16" font-weight="700" font-style="italic">16 builds and counting</text>
+  <g transform="rotate(1.2 600 177)">
+    <rect x="-20" y="150" width="1240" height="56" fill="#F5F5F5"/>
+    <text class="right" x="-520" y="188" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="1.5">SAKHI FINANCE   ◆   SPAM CLASSIFIER   ◆   FAKE NEWS LSTM   ◆   WB ECON FORECAST   ◆   SAKHI FINANCE   ◆   SPAM CLASSIFIER   ◆   FAKE NEWS LSTM   ◆   WB ECON FORECAST</text>
+  </g><g transform="rotate(-1.2 600 249)">
+    <rect x="-20" y="222" width="1240" height="56" fill="#F99417"/>
+    <text class="left" x="-170" y="260" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="1.5">EMPATHY RESILIENCE   ◆   TIME SERIES TEMP   ◆   NER LANDSLIDE GIS   ◆   ADITYA L1 PRADAN   ◆   EMPATHY RESILIENCE   ◆   TIME SERIES TEMP   ◆   NER LANDSLIDE GIS   ◆   ADITYA L1 PRADAN</text>
+  </g><g transform="rotate(1.2 600 321)">
+    <rect x="-20" y="294" width="1240" height="56" fill="#AE445A"/>
+    <text class="right" x="-520" y="332" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="1.5">N8N MANUFACTURING AGENT   ◆   N8N HR BOT   ◆   N8N VEO3 PIPELINE   ◆   N8N LEAD GENERATOR   ◆   N8N MANUFACTURING AGENT   ◆   N8N HR BOT   ◆   N8N VEO3 PIPELINE   ◆   N8N LEAD GENERATOR</text>
+  </g><g transform="rotate(-1.2 600 393)">
+    <rect x="-20" y="366" width="1240" height="56" fill="#F5F5F5"/>
+    <text class="left" x="-170" y="404" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="1.5">N8N FIRST AGENT   ◆   N8N RECEIPT BUILDER   ◆   N8N CALENDAR REMINDER   ◆   PLIVO ML   ◆   N8N FIRST AGENT   ◆   N8N RECEIPT BUILDER   ◆   N8N CALENDAR REMINDER   ◆   PLIVO ML</text>
+  </g>
+  <g transform="translate(1138 445)"><g class="star"><path d="M0-24L21-12V12L0 24-21 12V-12Z" fill="none" stroke="#F99417" stroke-width="5"/><circle r="6" fill="#F99417"/></g></g>
+  <text x="48" y="461" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="4">EVERY REPOSITORY IS ANOTHER EXPERIMENT IN THE ARCHIVE</text>
+  <rect width="1200" height="495" fill="transparent" filter="url(#grain)" opacity=".22"/>
+</svg>

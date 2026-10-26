@@ -1,0 +1,45 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ayush Maurya — AI engineer and quant builder</title>
+  <desc id="desc">A retro animated title card in dusk indigo, plum, rose and amber.</desc>
+  <defs>
+  <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="9" result="noise"/>
+    <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+    <feComponentTransfer in="mono" result="fade"><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="fade" mode="multiply"/>
+  </filter><linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F99417"/><stop offset="1" stop-color="#F39F5A"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#363062"/><stop offset=".55" stop-color="#451952"/><stop offset="1" stop-color="#662549"/></linearGradient></defs>
+  <style>
+    .sun { animation: sun 8s ease-in-out infinite; transform-origin: 600px 248px; }
+    .title-shadow { animation: shadow 3.8s ease-in-out infinite; }
+    .spark { animation: blink 2.2s steps(2,end) infinite; }
+    .ticker { animation: drift 7s ease-in-out infinite alternate; }
+    @keyframes sun { 50% { transform:rotate(8deg) scale(1.035); } }
+    @keyframes shadow { 50% { transform:translate(7px,7px); } }
+    @keyframes blink { 50% { opacity:.25; transform:scale(.75); } }
+    @keyframes drift { to { transform:translateX(34px); } }
+    .node { animation: blink 2.6s steps(2,end) infinite; transform-box:fill-box; transform-origin:center; } .n1 { animation-delay:-.9s } .n2 { animation-delay:-1.7s }
+    .ring { animation: spin 30s linear infinite; transform-origin:600px 250px; } @keyframes spin { to { transform:rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none!important; } }
+  </style>
+  <rect width="1200" height="520" fill="url(#sky)"/>
+  <g class="net" opacity=".42" fill="#F5F5F5"><path d="M70 90L170 60 M70 90L170 140 M70 90L170 220 M70 90L170 300 M70 190L170 60 M70 190L170 140 M70 190L170 220 M70 190L170 300 M70 290L170 60 M70 290L170 140 M70 290L170 220 M70 290L170 300 M170 60L270 120 M170 60L270 240 M170 140L270 120 M170 140L270 240 M170 220L270 120 M170 220L270 240 M170 300L270 120 M170 300L270 240" stroke="#F5F5F5" stroke-width="1.5" fill="none"/><circle class="node n0" cx="70" cy="90" r="7"/><circle class="node n1" cx="70" cy="190" r="7"/><circle class="node n2" cx="70" cy="290" r="7"/><circle class="node n1" cx="170" cy="60" r="7"/><circle class="node n2" cx="170" cy="140" r="7"/><circle class="node n0" cx="170" cy="220" r="7"/><circle class="node n1" cx="170" cy="300" r="7"/><circle class="node n2" cx="270" cy="120" r="7"/><circle class="node n0" cx="270" cy="240" r="7"/><path d="M930 120L1030 60 M930 120L1030 140 M930 120L1030 220 M930 120L1030 300 M930 240L1030 60 M930 240L1030 140 M930 240L1030 220 M930 240L1030 300 M1030 60L1130 90 M1030 60L1130 190 M1030 60L1130 290 M1030 140L1130 90 M1030 140L1130 190 M1030 140L1130 290 M1030 220L1130 90 M1030 220L1130 190 M1030 220L1130 290 M1030 300L1130 90 M1030 300L1130 190 M1030 300L1130 290" stroke="#F5F5F5" stroke-width="1.5" fill="none"/><circle class="node n0" cx="930" cy="120" r="7"/><circle class="node n1" cx="930" cy="240" r="7"/><circle class="node n1" cx="1030" cy="60" r="7"/><circle class="node n2" cx="1030" cy="140" r="7"/><circle class="node n0" cx="1030" cy="220" r="7"/><circle class="node n1" cx="1030" cy="300" r="7"/><circle class="node n2" cx="1130" cy="90" r="7"/><circle class="node n0" cx="1130" cy="190" r="7"/><circle class="node n1" cx="1130" cy="290" r="7"/></g>
+  <circle cx="600" cy="250" r="174" fill="url(#sun)"/>
+  <circle cx="600" cy="250" r="147" fill="#AE445A"/>
+  <path d="M0 416 C185 360 315 477 493 425 C695 365 868 479 1200 395 V520 H0Z" fill="#F5F5F5"/>
+  <path d="M0 450 C190 397 341 500 548 452 C780 398 965 479 1200 430 V520 H0Z" fill="#F99417"/>
+  <g class="title-shadow" fill="#AE445A" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-weight="900" text-anchor="middle">
+    <text x="606" y="245" font-size="154" letter-spacing="-3">AYUSH</text>
+    <text x="606" y="371" font-size="154" letter-spacing="-3">MAURYA</text>
+  </g>
+  <g fill="#F5F5F5" stroke="#451952" stroke-width="4" paint-order="stroke" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-weight="900" text-anchor="middle">
+    <text x="594" y="233" font-size="154" letter-spacing="-3">AYUSH</text>
+    <text x="594" y="359" font-size="154" letter-spacing="-3">MAURYA</text>
+  </g>
+  <g class="ring" fill="none" stroke="#F5F5F5" stroke-width="3" opacity=".55"><circle cx="600" cy="250" r="198" stroke-dasharray="4 14"/></g>
+  <rect x="310" y="398" width="580" height="52" rx="26" fill="#451952"/>
+  <text x="600" y="432" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="4" text-anchor="middle">AI ENGINEER × QUANT BUILDER</text>
+  <g class="ticker" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2">
+    <text x="-28" y="494">LLMS  ◆  RAG  ◆  AGENTS  ◆  QUANT  ◆  LLMS  ◆  RAG  ◆  AGENTS  ◆  QUANT  ◆  LLMS  ◆  RAG  ◆  AGENTS  ◆  QUANT  ◆  LLMS  ◆  RAG  ◆  AGENTS  ◆  QUANT</text>
+  </g>
+  <rect width="1200" height="520" fill="transparent" filter="url(#grain)" opacity=".32"/>
+</svg>

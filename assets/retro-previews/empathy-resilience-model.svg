@@ -1,0 +1,28 @@
+<svg width="560" height="360" viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    <title id="title">EMPATHY MODEL project preview</title>
+    <desc id="desc">A headline result from EMPATHY MODEL in a retro editorial frame.</desc>
+    <defs>
+  <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="9" result="noise"/>
+    <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+    <feComponentTransfer in="mono" result="fade"><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="fade" mode="multiply"/>
+  </filter><clipPath id="clip"><path d="M0 0H560V360H0Z"/></clipPath></defs>
+    <style>
+      .image { animation: pan 9s ease-in-out infinite alternate; transform-origin:center; }
+      .disc { animation: spin 7s linear infinite; transform-origin:514px 315px; }
+      @keyframes pan { to { transform:scale(1.045) translate(-3px,-3px); } }
+      @keyframes spin { to { transform:rotate(360deg); } }
+      @media (prefers-reduced-motion: reduce) { * { animation:none!important; } }
+    </style>
+    <g clip-path="url(#clip)">
+      <rect width="560" height="360" fill="#F5F5F5"/>
+      <g class="image"><rect width="560" height="281" fill="#AE445A"/><path d="M0 70H560M0 140H560M0 210H560" stroke="#F5F5F5" stroke-opacity=".12" stroke-width="2"/><rect x="300" y="180" width="28" height="70" rx="4" fill="#F99417" opacity=".5"/><rect x="340" y="140" width="28" height="110" rx="4" fill="#F99417" opacity=".5"/><rect x="380" y="160" width="28" height="90" rx="4" fill="#F99417" opacity=".5"/><rect x="420" y="100" width="28" height="150" rx="4" fill="#F99417" opacity=".5"/><rect x="460" y="120" width="28" height="130" rx="4" fill="#F99417" opacity=".5"/><rect x="500" y="50" width="28" height="200" rx="4" fill="#F99417" opacity=".5"/><text x="280" y="150" text-anchor="middle" fill="#F5F5F5" stroke="#451952" stroke-width="4" paint-order="stroke" font-family="Impact, Haettenschweiler, sans-serif" font-size="72" letter-spacing="2">R² 0.995</text></g>
+      <path d="M0 258 C120 244 202 280 316 260 C411 244 480 265 560 250 V360 H0Z" fill="#363062"/>
+      <path d="M0 275 C118 260 218 291 339 271 C435 255 497 272 560 263" fill="none" stroke="#F5F5F5" stroke-width="4" opacity=".75"/>
+      <text x="24" y="314" fill="#F5F5F5" font-family="Impact, Haettenschweiler, sans-serif" font-size="34" letter-spacing="1">EMPATHY MODEL</text>
+      <text x="25" y="340" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900" letter-spacing="1.6">DELOITTE CASE · LSTM + TRANSFORMER</text>
+      <g class="disc"><circle cx="514" cy="315" r="24" fill="none" stroke="#F5F5F5" stroke-width="3" stroke-dasharray="6 6"/><circle cx="514" cy="315" r="9" fill="#F5F5F5"/><circle cx="514" cy="291" r="5" fill="#F99417"/><circle cx="535" cy="327" r="4" fill="#F5F5F5"/></g>
+      <rect width="560" height="360" fill="transparent" filter="url(#grain)" opacity=".24"/>
+    </g>
+  </svg>
