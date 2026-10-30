@@ -17,15 +17,15 @@
   <rect width="1200" height="475" fill="url(#bg)"/>
   <path d="M0 0H1200V28C915 6 286 54 0 28Z" fill="#AE445A"/>
   <text x="52" y="62" fill="#F5F5F5" stroke="#451952" stroke-width="2" paint-order="stroke" font-family="Impact, Haettenschweiler, sans-serif" font-size="28" letter-spacing="3">ACTIVITY ARCADE</text>
-  <text x="52" y="99" fill="#F99417" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900">PLAYER LEVEL 7</text>
+  <text x="52" y="99" fill="#F99417" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900">PLAYER LEVEL 8</text>
   <rect x="300" y="76" width="832" height="18" rx="9" fill="#F5F5F5"/>
-  <rect class="xp-bar" x="300" y="76" width="749" height="18" rx="9" fill="url(#xp)"/>
-  <text x="1132" y="67" text-anchor="end" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900">9/10 XP TO NEXT LEVEL</text>
+  <rect class="xp-bar" x="300" y="76" width="18" height="18" rx="9" fill="url(#xp)"/>
+  <text x="1132" y="67" text-anchor="end" fill="#F5F5F5" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900">0/10 XP TO NEXT LEVEL</text>
   
   <g transform="translate(52 126)">
     <rect x="7" y="7" width="238" height="106" fill="#451952" opacity=".3"/>
     <rect width="238" height="106" fill="#F5F5F5"/>
-    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">69</text>
+    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">70</text>
     <text x="24" y="79" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="1.1">PUBLIC CONTRIBUTIONS</text>
   </g>
   
@@ -39,20 +39,20 @@
   <g transform="translate(560 126)">
     <rect x="7" y="7" width="238" height="106" fill="#451952" opacity=".3"/>
     <rect width="238" height="106" fill="#F5F5F5"/>
-    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">1 DAYS</text>
+    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">2 DAYS</text>
     <text x="24" y="79" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="1.1">CURRENT STREAK</text>
   </g>
   
   <g transform="translate(814 126)">
     <rect x="7" y="7" width="238" height="106" fill="#451952" opacity=".3"/>
     <rect width="238" height="106" fill="#F5F5F5"/>
-    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">22</text>
+    <text x="24" y="50" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900">23</text>
     <text x="24" y="79" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="1.1">ACTIVE DAYS / YEAR</text>
   </g>
   <g transform="translate(1068 126)">
     <rect x="7" y="7" width="80" height="106" fill="#451952" opacity=".3"/>
     <rect width="80" height="106" fill="#F99417"/>
-    <text x="40" y="50" text-anchor="middle" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900">38</text>
+    <text x="40" y="50" text-anchor="middle" fill="#AE445A" stroke="#451952" stroke-width="1.5" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900">39</text>
     <text x="40" y="78" text-anchor="middle" fill="#451952" font-family="Arial Black, Arial, sans-serif" font-size="9" font-weight="900">PROJECTS</text>
   </g>
   <text x="52" y="279" fill="#F5F5F5" stroke="#451952" stroke-width="1" paint-order="stroke" font-family="Arial Black, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2">CONTRIBUTION MAP · LAST 52 WEEKS</text>
@@ -424,8 +424,9 @@
     <rect class="cell" x="902" y="328" width="12" height="12" rx="3" fill="#F5F5F5" style="animation-delay:0.25s"><title>2026-10-26: 1 contribution</title></rect>
     <rect class="cell" x="902" y="344" width="12" height="12" rx="3" fill="#4D4C7D" style="animation-delay:0.3s"><title>2026-10-27: 0 contributions</title></rect>
     <rect class="cell" x="902" y="360" width="12" height="12" rx="3" fill="#4D4C7D" style="animation-delay:0.35s"><title>2026-10-28: 0 contributions</title></rect>
-    <rect class="cell" x="902" y="376" width="12" height="12" rx="3" fill="#F5F5F5" style="animation-delay:0.4s"><title>2026-10-29: 1 contribution</title></rect></g>
+    <rect class="cell" x="902" y="376" width="12" height="12" rx="3" fill="#F5F5F5" style="animation-delay:0.4s"><title>2026-10-29: 1 contribution</title></rect>
+    <rect class="cell" x="902" y="392" width="12" height="12" rx="3" fill="#F5F5F5" style="animation-delay:0.45s"><title>2026-10-30: 1 contribution</title></rect></g>
   <text x="52" y="447" fill="#F5F5F5" opacity=".7" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900">SNAPSHOT FROM GITHUB PUBLIC ACTIVITY</text>
-  <text x="1148" y="447" text-anchor="end" fill="#F5F5F5" opacity=".7" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900">LAST CHECKPOINT: 2026-10-29 <tspan class="cursor" fill="#AE445A">●</tspan></text>
+  <text x="1148" y="447" text-anchor="end" fill="#F5F5F5" opacity=".7" font-family="Arial Black, Arial, sans-serif" font-size="10" font-weight="900">LAST CHECKPOINT: 2026-10-30 <tspan class="cursor" fill="#AE445A">●</tspan></text>
   <rect width="1200" height="475" fill="transparent" filter="url(#grain)" opacity=".2"/>
 </svg>
